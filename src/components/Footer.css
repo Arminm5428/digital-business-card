@@ -1,0 +1,22 @@
+footer {
+    padding: 0 1em;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 0 1em;
+    margin: 0;
+}
+
+li svg{
+    transition: all 200ms ease-in-out;
+    transform: scale(1.5);
+}
+
+li svg:hover,
+li svg:focus {
+    fill: #fff;
+    transform: scale(1.7);
+}
